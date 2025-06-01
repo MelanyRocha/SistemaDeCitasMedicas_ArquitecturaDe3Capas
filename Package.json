@@ -1,0 +1,14 @@
+{
+    "name": "citas-medicas",
+    "version": "1.0.0",
+    "description": "Sistema de gestión de citas médicas",
+    "type": "module",
+    "main": "Presentacion/Main.js",
+    "scripts": {
+      "start": "node Presentacion/Main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
