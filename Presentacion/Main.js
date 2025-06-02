@@ -7,7 +7,7 @@ import { SMSObserver } from "../Negocio/SMSObserver.js";
 import { DB } from "../Datos/DB.js";
 
 const factory = new CitaFactory();
-const cita = factory.crearCita("Melany", "Dr. Juan Pérez", "2025-05-12");
+const cita = factory.crearCita("Melany Rocha Ferrufino", "Dr. Juan Pérez", "2025-05-12");
 
 const servicio = new ServicioConRecordatorio(new ServicioBasico());
 servicio.agendar(cita);
